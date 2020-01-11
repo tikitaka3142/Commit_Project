@@ -1,8 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "menu.h"
+#include <windows.h>
+#include "stdlib.h"
 
 int main(void) {
-	printf("Hello World\n");
+	draw_tilte();
+	draw_menu();
+
 	return 0;
 }
